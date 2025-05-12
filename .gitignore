@@ -91,3 +91,46 @@ $RECYCLE.BIN/
 # Logs
 *.log
 logs/
+
+# ───── Quarto Output ─────
+*_site/                  # Rendered HTML website
+*.html                  # If rendering standalone HTML files
+*.pdf                   # Optional if rendering PDFs
+*.docx                  # Optional if exporting Word files
+
+# ───── Quarto / Pandoc / Temp ─────
+*.log
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.quarto/
+.Rproj.user/
+.DS_Store
+
+# ───── Python ─────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+*.egg-info/
+
+# ───── Jupyter / Quarto Jupyter ─────
+.ipynb_checkpoints/
+*.ipynb~              # Autosave backups
+*.qmd~                # Quarto autosave
+.quarto_cache/        # Cache for rendered chunks
+
+# ───── VS Code / JetBrains IDEs ─────
+.vscode/
+.idea/
+
+# ───── Conda Environments (optional) ─────
+*.conda
+*.env.yaml

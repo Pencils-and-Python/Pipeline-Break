@@ -1,0 +1,6 @@
+---
+title: "Pipe Break Prediction Report"
+format: html
+---
+
+Welcome to the pipe break prediction project! This report documents the data preparation, modeling process, and results using historical water main break data.

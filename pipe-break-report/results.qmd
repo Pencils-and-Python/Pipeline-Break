@@ -1,0 +1,9 @@
+---
+title: "Results"
+format: html
+jupyter: pipeline_break
+---
+
+## Results
+
+Visualizations and summary metrics will be presented here.
