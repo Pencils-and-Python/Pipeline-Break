@@ -17,6 +17,7 @@ book:
     - discussion.qmd
     - conclusion.qmd
     - future-work.qmd
+    - data-sources.qmd
     - references.qmd
     - appendix.qmd
 

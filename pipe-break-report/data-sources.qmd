@@ -1,0 +1,61 @@
+## Data Acquisition & External Sources
+
+This section documents the key external datasets required to supplement the Syracuse water main break dataset. Each entry includes the variable needed, potential sources, current status, and any relevant access notes.
+
+---
+
+### 1. Pipe Age, Material, and Diameter
+
+- **Purpose**: Core variables for predicting break risk (e.g., older cast iron pipes may break more frequently).
+- **Potential Sources**:
+  - Syracuse Water Department or GIS Portal
+  - Public utility asset maps
+  - As-builts (via FOIA request if necessary)
+- **Status**: Not available in current dataset. Pending inquiry or request.
+
+---
+
+### 2. Soil Composition
+
+- **Purpose**: Certain soils (e.g., expansive clay, corrosive soils) may increase break risk.
+- **Source**: [USDA Web Soil Survey](https://websoilsurvey.sc.egov.usda.gov/)
+- **Notes**:
+  - Export SSURGO shapefiles by county
+  - Convert to GeoJSON or merge with break locations via spatial join
+- **Status**: Researching shapefile export for Syracuse area
+
+---
+
+### 3. Climate and Weather
+
+- **Purpose**: Freeze/thaw cycles, extreme temperatures, and rainfall may impact failure rates.
+- **Source**: [NOAA Climate Data Online (CDO)](https://www.ncei.noaa.gov/cdo-web/)
+- **Notes**:
+  - Register for NOAA token to access API
+  - Variables: temp_max, temp_min, freeze_days
+- **Status**: API access available; queries pending
+
+---
+
+### 4. Traffic and Roadway Overlays
+
+- **Purpose**: Roads with heavy traffic may stress buried pipes.
+- **Sources**:
+  - [OpenStreetMap](https://www.openstreetmap.org)
+  - New York State DOT GIS Portal
+- **Status**: Candidate layers identified. May download as vector tiles or GeoJSON.
+
+---
+
+### 5. Groundwater / Pressure Zones
+
+- **Purpose**: Zones with high pressure or shallow groundwater may experience more frequent failures.
+- **Source Ideas**:
+  - Public utility engineering reports
+  - Local hydraulic modeling studies
+- **Status**: Unknown. Need to research availability.
+
+---
+
+> [!note]
+> This page will be updated as datasets are acquired, validated, and integrated into the modeling pipeline.

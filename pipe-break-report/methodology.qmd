@@ -1,3 +1,21 @@
 ## Methodology
 
-*Content coming soon...*
+This section outlines our step-by-step approach for building the predictive model.
+
+### Data Ingestion & Cleaning
+
+We imported the raw dataset from the Syracuse Open Data Portal and filtered for relevant attributes.
+
+### Feature Engineering
+
+- Created spatial clusters using DBSCAN
+- Extracted temporal features (season, day of week)
+- Calculated break frequency per cluster
+
+### Model Selection
+
+We used a Random Forest Classifier due to its:<br>
+- High interpretability,<br>
+- Low computational cost,<br>
+- Strong performance on small tabular datasets
+

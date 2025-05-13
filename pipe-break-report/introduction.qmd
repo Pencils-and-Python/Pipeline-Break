@@ -1,3 +1,3 @@
 ## Introduction
 
-This is a test heading.
+While a comprehensive water main break dataset was available through the Syracuse Open Data Portal, detailed asset metadata — such as pipe material, diameter, and install year — was not included. Efforts to acquire this data through the Department of Water and other municipal offices were initiated, but as of the time of writing, no pipe-level asset data was available. This limitation shaped the feature engineering strategy and motivated an emphasis on spatial and temporal proxies.
