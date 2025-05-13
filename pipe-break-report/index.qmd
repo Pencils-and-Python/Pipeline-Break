@@ -1,6 +1,10 @@
 ---
-title: "Pipe Break Prediction Report"
-format: html
+title: "Predicting Water Main Breaks with Machine Learning"
+author: Brice Nelson
+date: 2025-05-12
+format:
+  html:
+    toc: true
+    toc-location: right
+    number-sections: true
 ---
-
-Welcome to the pipe break prediction project! This report documents the data preparation, modeling process, and results using historical water main break data.

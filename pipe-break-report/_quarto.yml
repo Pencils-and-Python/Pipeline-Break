@@ -1,24 +1,26 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "Pipe Break Prediction Report"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: data-prep.qmd
-        text: Data Prep
-      - href: eda.qmd
-        text: EDA
-      - href: modeling.qmd
-        text: Modeling
-      - href: results.qmd
-        text: Results
+book:
+  title: "Predicting Water Main Breaks with Machine Learning"
+  author: "Brice Nelson"
+  date: "2025-05-12"
+  chapters:
+    - index.qmd
+    - executive-summary.qmd
+    - introduction.qmd
+    - problem-statement.qmd
+    - data-exploration.qmd
+    - methodology.qmd
+    - model-development.qmd
+    - results.qmd
+    - discussion.qmd
+    - conclusion.qmd
+    - future-work.qmd
+    - references.qmd
+    - appendix.qmd
 
 format:
   html:
     theme: cosmo
-    toc: true
-
-
+    number-sections: true

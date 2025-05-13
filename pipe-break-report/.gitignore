@@ -3,3 +3,7 @@ _site/
 .quarto_cache/
 *.html
 *.pdf
+
+/.quarto/
+_book
+pipe-break-report_files
