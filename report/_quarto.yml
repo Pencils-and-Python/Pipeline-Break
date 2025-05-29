@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Predicting Water Main Breaks with Machine Learning"
+  author: "Brice Nelson"
+  date: "2025-05-12"
+  chapters:
+    - index.qmd
+    - sections/executive-summary.qmd
+    - sections/introduction.qmd
+    - sections/problem-statement.qmd
+    - sections/data-exploration.qmd
+    - sections/methodology.qmd
+    - sections/model-development.qmd
+    - sections/results.qmd
+    - sections/discussion.qmd
+    - sections/conclusion.qmd
+    - sections/future-work.qmd
+    - sections/data-sources.qmd
+    - sections/references.qmd
+    - sections/appendix.qmd
+
+format:
+  html:
+    theme: cosmo
+    number-sections: true
