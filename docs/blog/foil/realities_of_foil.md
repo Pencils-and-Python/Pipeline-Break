@@ -47,15 +47,15 @@ This isn’t just a “nice to have” dataset. It’s the *foundation* of the a
 
 ## ⏳ Why FOIL Requests Take So Long
 
-Even though most state FOIL laws require a response within **5 to 20 business days**, that’s usually just the acknowledgment of the request—not the actual delivery of records.
+Even though most state FOIL laws require a response within **5 to 20 business days**, that’s usually just the acknowledgment of the request, not the actual delivery of records.
 
 Some reasons for delay:
 
-- 🔹 **Understaffing** – FOIL departments are often one-person shows juggling hundreds of requests.  
-- 🔹 **Paper-based archives** – Many agencies still haven’t digitized older records, and scanning is manual.  
-- 🔹 **Legal review** – Documents must be reviewed and sometimes redacted to protect privacy or confidentiality.  
-- 🔹 **Ambiguity** – Vague or overly broad requests may be bounced back for clarification.  
-- 🔹 **High volume** – Some departments are flooded with requests from reporters, watchdogs, and researchers.
+-  **Understaffing** – FOIL departments are often one-person shows juggling hundreds of requests.  
+-  **Paper-based archives** – Many agencies still haven’t digitized older records, and scanning is manual.  
+-  **Legal review** – Documents must be reviewed and sometimes redacted to protect privacy or confidentiality.  
+-  **Ambiguity** – Vague or overly broad requests may be bounced back for clarification.  
+-  **High volume** – Some departments are flooded with requests from reporters, watchdogs, and researchers.
 
 It’s not malice, it’s just government process.
 
@@ -63,7 +63,7 @@ It’s not malice, it’s just government process.
 
 ## ❌ Can FOIL Requests Be Denied?
 
-Yes—but with limits.
+Yes, but with limits.
 
 Your FOIL request *can* be denied if the records fall under certain exemptions, including:
 
@@ -120,6 +120,21 @@ FOIL is a tool. The delays? That’s the price of having one.
 ## 📬 Got a FOIL War Story?
 
 Ever had a request that took 3 months? Or a record you needed that was "in a warehouse somewhere"? I'd love to hear your stories, especially if you’ve found ways to speed things up. Drop me a comment, email, or LinkedIn message. Let’s compare notes and learn from the trenches.
+
+---
+
+## 📇 Let’s Connect
+
+If you found this post helpful, or if you’ve got FOIL war stories, planning tips, or just want to talk civil infrastructure, predictive modeling, or web dev, then I’d love to connect.
+
+**Reach me here:**
+
+- 🌐 Website: [devbybrice.com](https://www.devbybrice.com/)  
+- 💼 LinkedIn: [Brice A. Nelson, P.E., MBA](https://www.linkedin.com/in/brice-a-nelson-p-e-mba-36b28b15/)  
+- 🐦 X (Twitter): [@brice_web_dev](https://x.com/brice_web_dev)  
+- 📘 Facebook: [facebook.com/devbybrice](https://www.facebook.com/devbybrice)
+
+Let’s build cool things and make public data work for us, not against us.
 
 ---
 
